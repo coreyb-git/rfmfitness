@@ -62,6 +62,10 @@ form.art-search div>input[type="text"]
    margin :0;
 }
 
+.art-postmetadataheader{
+   zoom:1;
+}
+
 .art-postheadericons span{
    zoom: 1;
 }

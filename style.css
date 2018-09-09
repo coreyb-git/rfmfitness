@@ -125,12 +125,12 @@ ul.art-vmenu a
 {
    font-family: Tahoma, Arial, Helvetica, Sans-Serif;
    text-decoration: none;
-   color: #8D9CAA;
+   color: #8A9AA8;
 }
 
 .art-postcontent h1
 {
-   color: #6C8093;
+   color: #6A7E90;
    margin: 10px 0 0;
    font-size: 26px;
    font-family: 'Comic Sans MS', Tahoma, Arial, Sans-Serif;
@@ -154,7 +154,7 @@ ul.art-vmenu a
 
 .art-postcontent h2
 {
-   color: #8D9CAA;
+   color: #8A9AA8;
    margin: 10px 0 0;
    font-size: 22px;
    font-family: 'Comic Sans MS', Tahoma, Arial, Sans-Serif;
@@ -178,7 +178,7 @@ ul.art-vmenu a
 
 .art-postcontent h3
 {
-   color: #9C9C9C;
+   color: #999999;
    margin: 10px 0 0;
    font-size: 18px;
    font-family: 'Comic Sans MS', Tahoma, Arial, Sans-Serif;
@@ -202,7 +202,7 @@ ul.art-vmenu a
 
 .art-postcontent h4
 {
-   color: #CD9704;
+   color: #C89404;
    margin: 10px 0 0;
    font-size: 16px;
    font-family: 'Comic Sans MS', Tahoma, Arial, Sans-Serif;
@@ -226,8 +226,8 @@ ul.art-vmenu a
 
 .art-postcontent h5
 {
-   color: #596978;
-   margin: 10px 0 0;
+   color: #576775;
+   margin: 20px 0 0;
    font-size: 14px;
    font-family: 'Comic Sans MS', Tahoma, Arial, Sans-Serif;
    letter-spacing: 2px;
@@ -235,7 +235,7 @@ ul.art-vmenu a
 
 .art-blockcontent h5
 {
-   margin: 10px 0 0;
+   margin: 20px 0 0;
    font-size: 14px;
    font-family: 'Comic Sans MS', Tahoma, Arial, Sans-Serif;
    letter-spacing: 2px;
@@ -250,7 +250,7 @@ ul.art-vmenu a
 
 .art-postcontent h6
 {
-   color: #ADB8C2;
+   color: #A7B3BE;
    margin: 10px 0 0;
    font-size: 13px;
    font-family: 'Comic Sans MS', Tahoma, Arial, Sans-Serif;
@@ -307,7 +307,7 @@ body
    padding: 0;
    margin:0;
    min-width: 900px;
-   color: #696969;
+   color: #666666;
 }
 
 .art-header:before, #art-header-bg:before, .art-layout-cell:before, .art-layout-wrapper:before, .art-footer:before, .art-nav:before, #art-hmenu-bg:before, .art-sheet:before
@@ -400,7 +400,7 @@ li p, .art-postcontent li p, .art-blockcontent li p
 
 
 
-.art-footer .layout-item-0 { padding: 10px;  }
+.art-footer .layout-item-old-0 { padding: 10px;  }
 .ie7 .art-post .art-layout-cell {border:none !important; padding:0 !important; }
 .ie6 .art-post .art-layout-cell {border:none !important; padding:0 !important; }
 
@@ -513,7 +513,7 @@ div.art-block img
    border:1px solid rgba(196, 196, 196, 0.5);
    padding:7px;
    margin:0 auto;
-   color: #323B43;
+   color: #303841;
    font-size: 12px;
    font-family: Tahoma, Arial, Helvetica, Sans-Serif;
    letter-spacing: 1px;
@@ -525,7 +525,7 @@ div.art-block img
 .art-blockcontent a:visited,
 .art-blockcontent a:hover
 {
-   color: #323B43;
+   color: #303841;
    font-size: 12px;
    font-family: Tahoma, Arial, Helvetica, Sans-Serif;
    letter-spacing: 1px;
@@ -538,13 +538,13 @@ div.art-block img
 
 .art-blockcontent a, .art-blockcontent a:link
 {
-   color: #7A7A7A;
+   color: #787878;
    font-family: Tahoma, Arial, Helvetica, Sans-Serif;
 }
 
 .art-blockcontent a:visited, .art-blockcontent a.visited
 {
-   color: #969696;
+   color: #949494;
    font-family: Tahoma, Arial, Helvetica, Sans-Serif;
    text-decoration: none;
 }
@@ -687,7 +687,7 @@ input.art-button
    margin:0 auto;
 }
 .art-button.hover, .art-button:hover {
-   color: #575757 !important;
+   color: #545454 !important;
 }
 
 input[type="text"], input[type="password"], input[type="email"], input[type="url"], textarea
@@ -830,7 +830,7 @@ label.art-checkbox
    font-style: normal;
    line-height: 16px;
    display: inline-block;
-   color: #7D5C03 !important;
+   color: #785902 !important;
 }
 
 .art-checkbox>input[type="checkbox"]
@@ -884,7 +884,7 @@ label.art-radiobutton
    font-style: normal;
    line-height: 12px;
    display: inline-block;
-   color: #7D5C03 !important;
+   color: #785902 !important;
 }
 
 .art-radiobutton>input[type="radio"]
@@ -961,7 +961,7 @@ label.art-radiobutton.hovered:before
 .art-comment-content
 {
    padding:10px 0;
-   color: #364049;
+   color: #343E46;
    font-family: Tahoma, Arial, Helvetica, Sans-Serif;
 }
 
@@ -996,19 +996,19 @@ label.art-radiobutton.hovered:before
 .art-comment-header a, .art-comment-header a:link
 {
    font-family: Tahoma, Arial, Helvetica, Sans-Serif;
-   color: #878787;
+   color: #828282;
 }
 
 .art-comment-header a:visited, .art-comment-header a.visited
 {
    font-family: Tahoma, Arial, Helvetica, Sans-Serif;
-   color: #878787;
+   color: #828282;
 }
 
 .art-comment-header a:hover,  .art-comment-header a.hovered
 {
    font-family: Tahoma, Arial, Helvetica, Sans-Serif;
-   color: #878787;
+   color: #828282;
 }
 
 .art-comment-content a, 
@@ -1024,19 +1024,19 @@ label.art-radiobutton.hovered:before
 .art-comment-content a, .art-comment-content a:link
 {
    font-family: Tahoma, Arial, Helvetica, Sans-Serif;
-   color: #CD9704;
+   color: #C89404;
 }
 
 .art-comment-content a:visited, .art-comment-content a.visited
 {
    font-family: Tahoma, Arial, Helvetica, Sans-Serif;
-   color: #485561;
+   color: #45525E;
 }
 
 .art-comment-content a:hover,  .art-comment-content a.hovered
 {
    font-family: Tahoma, Arial, Helvetica, Sans-Serif;
-   color: #CD9704;
+   color: #C89404;
 }
 
 .art-pager
@@ -1204,7 +1204,14 @@ label.art-radiobutton.hovered:before
 }
 .art-post
 {
-   padding:15px;
+   background: #EAEDF0;
+   background: rgba(234, 237, 240, 0.3);
+   -webkit-border-radius:4px;
+   -moz-border-radius:4px;
+   border-radius:4px;
+   border:1px solid rgba(178, 178, 178, 0.2);
+   padding:5px;
+   margin:10px;
 }
 a img
 {
@@ -1213,7 +1220,7 @@ a img
 
 .art-article img, img.art-article, .art-block img, .art-footer img
 {
-   margin: 0 0 0 0;
+   margin: 5px 5px 5px 5px;
 }
 
 .art-metadata-icons img
@@ -1237,6 +1244,7 @@ a img
 .art-article th, .art-article td
 {
    padding: 2px;
+   border: solid 1px #B2B2B2;
    vertical-align: top;
    text-align: left;
 }
@@ -1263,7 +1271,7 @@ pre
 
 .image-caption-wrapper
 {
-   padding: 0 0 0 0;
+   padding: 5px 5px 5px 5px;
    -webkit-box-sizing: border-box;
    -moz-box-sizing: border-box;
    box-sizing: border-box;
@@ -1290,6 +1298,33 @@ pre
    font-size: 80%;
    text-align: right;
    margin: 0;
+}
+
+.art-postmetadataheader
+{
+   background: #E0E0E0;
+   background: rgba(224, 224, 224, 0.7);
+   margin:0 auto;
+   position:relative;
+   z-index:1;
+   padding: 1px;
+}
+
+.art-postheadericon:before
+{
+   content:url('images/postheadericon.png');
+   margin-right:6px;
+   position:relative;
+   display:inline-block;
+   vertical-align:middle;
+   font-size:0;
+   line-height:0;
+   bottom: auto;
+}
+.opera .art-postheadericon:before
+{
+   /* Vertical-align:middle in Opera doesn't need additional offset */
+    bottom: 0;
 }
 
 .art-postheader
@@ -1322,21 +1357,21 @@ pre
    font-family: 'Comic Sans MS', Tahoma, Arial, Sans-Serif;
    text-decoration: none;
    text-align: left;
-   color: #737373;
+   color: #696969;
 }
 
 .art-postheader a:visited, .art-postheader a.visited
 {
    font-family: 'Comic Sans MS', Tahoma, Arial, Sans-Serif;
    text-decoration: none;
-   color: #7B8D9D;
+   color: #6C8093;
 }
 
 .art-postheader a:hover,  .art-postheader a.hovered
 {
    font-family: 'Comic Sans MS', Tahoma, Arial, Sans-Serif;
    text-decoration: underline;
-   color: #FBC83C;
+   color: #FBC123;
 }
 
 .art-postheadericons,
@@ -1348,7 +1383,7 @@ pre
    font-size: 11px;
    font-family: Tahoma, Arial, Helvetica, Sans-Serif;
    letter-spacing: 1px;
-   color: #364049;
+   color: #2E363E;
 }
 
 .art-postheadericons
@@ -1361,7 +1396,7 @@ pre
    font-family: Tahoma, Arial, Helvetica, Sans-Serif;
    text-decoration: none;
    letter-spacing: 1px;
-   color: #595959;
+   color: #4F4F4F;
 }
 
 .art-postheadericons a:visited, .art-postheadericons a.visited
@@ -1369,7 +1404,7 @@ pre
    font-family: Tahoma, Arial, Helvetica, Sans-Serif;
    text-decoration: none;
    letter-spacing: 1px;
-   color: #4C5A67;
+   color: #434F5B;
 }
 
 .art-postheadericons a:hover, .art-postheadericons a.hover
@@ -1377,7 +1412,7 @@ pre
    font-family: Tahoma, Arial, Helvetica, Sans-Serif;
    text-decoration: underline;
    letter-spacing: 1px;
-   color: #E6AA05;
+   color: #CD9704;
 }
 
 .art-postpdficon:before
@@ -1451,7 +1486,7 @@ pre
 .art-postcontent li, .art-post li, .art-textblock li
 {
    font-family: Tahoma, Arial, Helvetica, Sans-Serif;
-   color: #364049;
+   color: #343E46;
    margin: 5px 0 0 11px;
 }
 
@@ -1462,12 +1497,12 @@ pre
 
 .art-postcontent ul>li, .art-post ul>li, .art-textblock ul>li
 {
-   padding-left: 14px;
+   padding-left: 9px;
 }
 
 .art-postcontent ul>li:before,  .art-post ul>li:before,  .art-textblock ul>li:before
 {
-   margin-left: -14px;
+   margin-left: -9px;
 }
 
 .art-postcontent ol, .art-post ol, .art-textblock ol, .art-postcontent ul, .art-post ul, .art-textblock ul
@@ -1500,14 +1535,14 @@ pre
 
 blockquote
 {
-   background: #E0E0E0 url('images/postquote.png') no-repeat scroll;
+   background: #E0E0E0;
    border:1px solid #C4C4C4;
-   padding:6px 6px 6px 43px;
-   margin:10px 10px 10px 50px;
+   padding:12px;
+   margin:5px 20px;
    color: #0D0F12;
    font-family: Tahoma, Arial, Helvetica, Sans-Serif;
    font-weight: normal;
-   font-style: italic;
+   font-style: normal;
    /* makes block not to align behind the image if they are in the same line */
   overflow: auto;
    clear:both;
@@ -1520,7 +1555,7 @@ blockquote a:hover, .art-postcontent blockquote a:hover, .art-blockcontent block
    color: #0D0F12;
    font-family: Tahoma, Arial, Helvetica, Sans-Serif;
    font-weight: normal;
-   font-style: italic;
+   font-style: normal;
 }
 
 /* Override native 'p' margins*/

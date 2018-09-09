@@ -1,22 +1,25 @@
 <!DOCTYPE html>
 <html dir="ltr" lang="en-US"><head><!-- Created by Artisteer v4.1.0.59861 -->
     <meta charset="utf-8">
-    <title>SnackHouse Home</title>
+    <title>Relative Fat Mass</title>
     <meta name="viewport" content="initial-scale = 1.0, maximum-scale = 1.0, user-scalable = no, width = device-width">
 
     <!--[if lt IE 9]><script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
     <link rel="stylesheet" href="style.css" media="screen">
-    <!--[if lte IE 7]>
-    <link rel="stylesheet" href="style.ie7.css" media="screen"/><![endif]-->
+    <!--[if lte IE 7]><link rel="stylesheet" href="style.ie7.css" media="screen" /><![endif]-->
     <link rel="stylesheet" href="style.responsive.css" media="all">
 
-
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <script src="jquery.js"></script>
     <script src="script.js"></script>
     <script src="script.responsive.js"></script>
+<meta name="keywords" content="relative fat mass, rfm, body mass index, bmi">
 
 
 <style>.art-content .art-postcontent-0 .layout-item-0 { padding-right: 10px;padding-left: 10px;  }
+.art-content .art-postcontent-0 .layout-item-1 { border-top-style:solid;border-right-style:solid;border-bottom-style:solid;border-left-style:solid;border-top-width:1px;border-right-width:1px;border-bottom-width:1px;border-left-width:1px;border-top-color:#E0E0E0;border-right-color:#E0E0E0;border-bottom-color:#E0E0E0;border-left-color:#E0E0E0; padding-right: 10px;padding-left: 10px;  }
+.art-content .art-postcontent-0 .layout-item-2 { margin-top: 5px;margin-right: 0px;margin-bottom: 5px;margin-left: 5px;  }
+.art-content .art-postcontent-0 .layout-item-3 { border-top-style:solid;border-right-style:solid;border-bottom-style:solid;border-left-style:solid;border-width:1px;border-top-color:#E0E0E0;border-right-color:#E0E0E0;border-bottom-color:#E0E0E0;border-left-color:#E0E0E0;  }
 .ie7 .art-post .art-layout-cell {border:none !important; padding:0 !important; }
 .ie6 .art-post .art-layout-cell {border:none !important; padding:0 !important; }
 
@@ -42,15 +45,88 @@
                     <div class="art-content-layout-row">
                         <div class="art-layout-cell art-content"><article class="art-post art-article">
                                 
-                                                
-                <div class="art-postcontent art-postcontent-0 clearfix"><div class="art-content-layout">
+                                <div class="art-postcontent art-postcontent-0 clearfix"><div class="art-content-layout">
     <div class="art-content-layout-row">
     <div class="art-layout-cell layout-item-0" style="width: 100%" >
-        <h4>Three-course dinning</h4>
-        <p><img width="120" height="120" alt="" src="images/course.jpg" style="float: left; margin-right: 10px;"></p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam pharetra, tellus sit amet congue vulputate, nisi erat iaculis nibh, vitae feugiat sapien ante eget mauris. Cras elit nisl, rhoncus nec iaculis ultricies, feugiat eget sapien. Pellentesque ac felis tellus. Aenean sollicitudin imperdiet arcu, vitae dignissim est posuere id.</p>
+        <h4>Body Mass Index (BMI)</h4>
+        <p>BMI is the typical gauge used by medical personnel to determine a person's body fat percentage. &nbsp;Of course, this is not a fair measurement for people at extremes of muscle mass who carry a lot of their weight purely in muscle alone.<br></p><p>For the average person, BMI gives an estimate on how much of their body is fat tissue.</p><p>A healthy value is considered between <span style="font-weight: bold;">18.5</span> and <span style="font-weight: bold;">24.9</span>. &nbsp;Being under or over this range typically suggests too little or too much body fat.</p><p><br></p>
     </div>
     </div>
+</div>
+<div class="art-content-layout">
+    <div class="art-content-layout-row">
+    <div class="art-layout-cell layout-item-1" style="width: 100%" >
+        <h4>Calculate Your BMI</h4><h5>Tools Required</h5>
+        <ol>
+        <li>Tape Measure
+        </li><li>Bathroom Scales
+        </li></ol>
+         
+        <form>
+        <h5><label for="bmiheight">Your Details:</label></h5><label for="bmiheight"><br>Height:</label>
+         <input type="number" value="180" id="bmiheight">cm
+        <br>
+         <label for="bmiweight">Weight:</label>
+         <input type="number" value="75" id="bmiweight">kg
+        <br>
+        <blockquote>
+        <p>
+         <strong>BMI = Weight (<em>kg</em>) / Height (<em>m</em>) / Height(<em>m</em>)</strong>
+        </p>
+        <p>&nbsp;</p>
+        <p>
+         <label id="bmiresult">Your Result: ?</label>
+        </p>
+        </blockquote>
+        </form>
+    </div>
+    </div>
+</div>
+<div class="art-content-layout">
+    <div class="art-content-layout-row">
+    <div class="art-layout-cell layout-item-0" style="width: 100%" >
+        <p><br></p>
+    </div>
+    </div>
+</div>
+<div class="art-content-layout">
+    <div class="art-content-layout-row">
+    <div class="art-layout-cell layout-item-0" style="width: 100%" >
+        <h4>Relative Fat Mass (RFM)</h4><p>Recent studies indicate RFM gives a more accurate assessment of a person's body fat when compared to the traditional BMI measurement.</p>
+    </div>
+    </div>
+</div>
+<div class="art-content-layout-wrapper layout-item-2">
+<div class="art-content-layout layout-item-3">
+    <div class="art-content-layout-row">
+    <div class="art-layout-cell layout-item-0" style="width: 100%" >
+        <h4>Calculate Your RFM</h4><h5>Tools Required</h5>
+        <ol><li>Tailors Tape Measure</li></ol>
+         
+        <form><h5><label for="gender">Your Details:</label></h5><label for="gender"><br>Gender:</label>
+         <select id="gender"><option value="male">Male</option><option value="female">Female</option></select>
+        <br>
+         <label for="height">Height:</label>
+         <input type="number" value="180" id="height">cm
+        <br>
+         <label for="waist">Waist:</label>
+         <input type="number" value="90" id="waist">cm
+        <br>
+        <blockquote>
+        <p>
+         For adult males: <strong>RFM = 64 - (20 x Height (<em>m</em>) / Waist Circumference (<em>m</em>))</strong></p>
+        <p>
+         For adult females: <strong>RFM = 76 - (20 x Height (<em>m</em>) / Waist Circumference (<em>m</em>))</strong></p>
+        <p>&nbsp;</p>
+        <p>
+         <label id="result">Your Result: ?</label>
+        </p>
+        </blockquote>
+        </form>
+         <script type="text/javascript" src="RFMScript.js"></script>
+    </div>
+    </div>
+</div>
 </div>
 </div>
 
@@ -59,18 +135,7 @@
                     </div>
                 </div>
             </div><footer class="art-footer">
-<div class="art-content-layout">
-    <div class="art-content-layout-row">
-    <div class="art-layout-cell layout-item-0" style="width: 30%">
-        <p>Copyright © 2011-2012. All Rights Reserved. &nbsp;&nbsp;</p>
-    </div><div class="art-layout-cell" style="width: 25%">
-        <p><img width="32" height="32" alt="" src="images/rss_32.png">&nbsp;&nbsp;<img width="32" height="32" alt="" src="images/facebook_32.png">&nbsp;&nbsp;<img width="32" height="32" alt="" src="images/twitter_32.png"></p>
-    </div><div class="art-layout-cell" style="width: 45%">
-        <p style="text-align: right">Sign up to newsletter &nbsp;<input style="font-style: italic; font-size: 13px; width: 170px; height: 28px;color: #808080" value=" Enter email">&nbsp;&nbsp;<a class="art-button">Subscribe</a></p>
-    </div>
-    </div>
-</div>
-
+<p><br></p>
 </footer>
 
     </div>
